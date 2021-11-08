@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: rgb(224, 224, 224);
+}
+.heading-div{
+  background-color: rgb(240, 240, 240);
+  padding: 30px;
+}
+.heading{
+  color: crimson;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.heading:hover{
+  transform: scale(1.1);
+  color: #222;
+}
+.card{
+  width: 280px;
+  float: left;
+  margin: 50px;
+  margin-left: 80px;
+  border: solid rgb(211, 211, 211) 0px;
+  border-radius: 12px;
+  transition: all 0.02s ease;
+  cursor: pointer;
+  
+}
+.card:hover{
+  transform: scale(1.03); 
+  box-shadow: 0 8px 6px -5px rgb(148, 148, 148);
+}
+
+.card_img{
+  height: 220px;
+  width: 280px;
+  display: flex;
+  border-radius: 5% 5% 0 0;
+}
+.card_info{
+  background-color: #fff;
+  border-radius: 0 0 5% 5%;
+  width: 280px;
+  height: 120px;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: larger; 
+  cursor: auto;
+  color: crimson;
+  background-color:rgb(245, 245, 245);
+}
+.card_category{
+  font-family: 'Inconsolata', monospace;
+  color: grey;
+}
+button{
+  cursor: pointer;
+  background-color: transparent;
+  padding: 8px 25px;
+  border: solid rosybrown 1px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+button:hover{
+  background-color: crimson;
+  color: #fff;
+}
